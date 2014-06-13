@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f35433dd79fc50ec20a65f98cf125540",
+    "hash": "fba1c9bb99eb0427decbcddff1f2fea6",
     "packages": [
         {
             "name": "evenement/evenement",
@@ -45,89 +45,6 @@
                 "event-dispatcher"
             ],
             "time": "2012-05-30 15:01:08"
-        },
-        {
-            "name": "react/cache",
-            "version": "v0.3.2",
-            "target-dir": "React/Cache",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/reactphp/cache.git",
-                "reference": "a821f4318e38fc7efd02d81698fcee9d3d34dafe"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/cache/zipball/a821f4318e38fc7efd02d81698fcee9d3d34dafe",
-                "reference": "a821f4318e38fc7efd02d81698fcee9d3d34dafe",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.2",
-                "react/promise": "~1.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.3-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "React\\Cache": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Async caching.",
-            "keywords": [
-                "cache"
-            ],
-            "time": "2013-04-24 08:33:43"
-        },
-        {
-            "name": "react/dns",
-            "version": "v0.3.2",
-            "target-dir": "React/Dns",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/reactphp/dns.git",
-                "reference": "c8c9c57750cb24e8f7b87bc62fee10750f1f9fbf"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/dns/zipball/c8c9c57750cb24e8f7b87bc62fee10750f1f9fbf",
-                "reference": "c8c9c57750cb24e8f7b87bc62fee10750f1f9fbf",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.2",
-                "react/cache": "0.3.*",
-                "react/promise": "~1.0",
-                "react/socket": "0.3.*"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.3-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "React\\Dns": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Async DNS resolver.",
-            "keywords": [
-                "dns",
-                "dns-resolver"
-            ],
-            "time": "2013-04-27 08:57:30"
         },
         {
             "name": "react/event-loop",
@@ -214,6 +131,91 @@
             ],
             "description": "A lightweight implementation of CommonJS Promises/A for PHP",
             "time": "2013-04-03 14:05:55"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "react/cache",
+            "version": "v0.3.2",
+            "target-dir": "React/Cache",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reactphp/cache.git",
+                "reference": "a821f4318e38fc7efd02d81698fcee9d3d34dafe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reactphp/cache/zipball/a821f4318e38fc7efd02d81698fcee9d3d34dafe",
+                "reference": "a821f4318e38fc7efd02d81698fcee9d3d34dafe",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "react/promise": "~1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "React\\Cache": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Async caching.",
+            "keywords": [
+                "cache"
+            ],
+            "time": "2013-04-24 08:33:43"
+        },
+        {
+            "name": "react/dns",
+            "version": "v0.3.2",
+            "target-dir": "React/Dns",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reactphp/dns.git",
+                "reference": "c8c9c57750cb24e8f7b87bc62fee10750f1f9fbf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reactphp/dns/zipball/c8c9c57750cb24e8f7b87bc62fee10750f1f9fbf",
+                "reference": "c8c9c57750cb24e8f7b87bc62fee10750f1f9fbf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "react/cache": "0.3.*",
+                "react/promise": "~1.0",
+                "react/socket": "0.3.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "React\\Dns": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Async DNS resolver.",
+            "keywords": [
+                "dns",
+                "dns-resolver"
+            ],
+            "time": "2013-04-27 08:57:30"
         },
         {
             "name": "react/socket",
@@ -302,9 +304,6 @@
             ],
             "time": "2014-02-16 19:48:52"
         }
-    ],
-    "packages-dev": [
-
     ],
     "aliases": [
 
